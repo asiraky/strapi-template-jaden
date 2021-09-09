@@ -5,7 +5,7 @@ const path = require("path");
 const mime = require("mime-types");
 const {
 	categories,
-	homepage,
+	home,
 	writers,
 	articles,
 	global,
@@ -106,7 +106,7 @@ async function importHomepage() {
 	const files = {
 		"seo.shareImage": getFileData("default-image.png"),
 	};
-	await createEntry({ model: "home", entry: homepage, files });
+	await createEntry({ model: "home", entry: home, files });
 }
 
 async function importWriters() {
