@@ -106,7 +106,7 @@ async function importHomepage() {
 	const files = {
 		"seo.shareImage": getFileData("default-image.png"),
 	};
-	await createEntry({ model: "homepage", entry: homepage, files });
+	await createEntry({ model: "home", entry: homepage, files });
 }
 
 async function importWriters() {
@@ -190,10 +190,10 @@ async function importSeedData() {
 
 	// Create all entries
 	await importCategories();
-	await importHomepage();
-	await importWriters();
-	await importArticles();
-	await importGlobal();
+	// await importHomepage();
+	// await importWriters();
+	// await importArticles();
+	// await importGlobal();
 }
 
 module.exports = async () => {

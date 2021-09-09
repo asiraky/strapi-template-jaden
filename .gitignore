@@ -1,35 +1,3 @@
-Skip to content
-Why GitHub? 
-Team
-Enterprise
-Explore 
-Marketplace
-Pricing 
-Search
-Sign in
-Sign up
-strapi
-/
-strapi-template-blog
-3622
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-strapi-template-blog/.gitignore
-@remidej
-remidej Initial commit
-Latest commit 063c660 on 3 Oct 2020
- History
- 1 contributor
-189 lines (139 sloc)  2.98 KB
-  
-
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows,linux,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,linux,node
 
@@ -218,15 +186,3 @@ $RECYCLE.BIN/
 # Custom
 
 .vscode
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

@@ -5,6 +5,9 @@ module.exports = function (scope) {
 				"mime-types": "^2.1.27",
 				"strapi-plugin-graphql": scope.strapiVersion,
 			}
+		},
+		scripts: {
+			"dev": "strapi develop"
 		}
 	}
 }
