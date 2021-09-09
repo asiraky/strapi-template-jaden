@@ -190,10 +190,10 @@ async function importSeedData() {
 
 	// Create all entries
 	await importCategories();
-	// await importHomepage();
-	// await importWriters();
-	// await importArticles();
-	// await importGlobal();
+	await importHomepage();
+	await importWriters();
+	await importArticles();
+	await importGlobal();
 }
 
 module.exports = async () => {

@@ -26,9 +26,6 @@
       "metaTitle": "My personal Strapi blog",
       "metaDescription": "Discover my SEO friendly blog built with Strapi.",
       "shareImage": null
-    },
-    "hero": {
-      "title": "My blog"
     }
   },
   "writers": [
